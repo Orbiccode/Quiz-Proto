@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 425px;
+    height: 100vh;
+    background: #1a1a1a;
+    color: white
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+}
+
+.pageHeader {
+    text-align: center;
+    color: white;
+    background: #111111;
+    margin-bottom: 0;
+}
+
+main {
+    background: #111111;
+}
+
+main h2 {
+    padding-left: 25px;
+}
